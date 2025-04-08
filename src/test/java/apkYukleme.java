@@ -23,7 +23,7 @@ public class apkYukleme {
 
         //caps.setCapability(MobileCapabilityType.APP, "C:\\Users\\arche\\IdeaProjects\\Appium\\Apps\\Apk Bilgisi_2.3.4_apkcombo.com.apk");
         // caps.setCapability(MobileCapabilityType.APP, "C:\\Users\\arche\\IdeaProjects\\Appium\\Apps\\Calculator_8.4 (503542421)_Apkpure.apk");
-        caps.setCapability(MobileCapabilityType.APP, "C:\\Users\\arche\\IdeaProjects\\Appium\\Apps\\arabam-com-5-4-1.apk");
+        caps.setCapability(MobileCapabilityType.APP, "C:\\Users\\arche\\IdeaProjects\\Appium\\Apps\\To-Do List - Schedule Planner_1.02.61.0928_APKPure.apk");
 
         driver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"),caps);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
