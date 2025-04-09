@@ -86,11 +86,8 @@ public class Kiwi {
 
         // gelen bilet fiyati kaydedilir ve kullanicin telefonuna sms olarak gonderilir
         String fiyat = page.fiyat.getText();
-        ReusableMethods.bekle();
-        fiyat = fiyat.replaceAll("\\D","");
-        int intFiyat = Integer.parseInt(fiyat)/100;
 
-        System.out.println(intFiyat);
+        driver.sendSMS("112233","Sectiginiz ucusun fiyat bilgisi; "+fiyat);
     }
 
 
